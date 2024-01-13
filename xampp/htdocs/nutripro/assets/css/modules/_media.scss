@@ -1,0 +1,101 @@
+@include media-breakpoint-up(xs) {
+    //480
+}
+
+@include media-breakpoint-up(sm) {
+    //576
+}
+
+@include media-breakpoint-up(md) {
+    //768
+}
+
+@include media-breakpoint-up(lg) {
+    //992
+}
+
+@include media-breakpoint-up(xl) {
+    //1200
+}
+
+@include media-breakpoint-up(xxl) {
+    //1400
+}
+
+
+/* NON Mobile ----------------- */
+
+@include media-breakpoint-down(xxl) {
+    //1399.98
+}
+
+@include media-breakpoint-down(xl) {
+    //1199.98
+}
+
+@include media-breakpoint-down(lg) {
+    //991.98
+}
+
+@include media-breakpoint-down(md) {
+    //767.98
+}
+
+@include media-breakpoint-down(sm) {
+    //575.98
+}
+
+@include media-breakpoint-down(xs) {
+    //479.98
+}
+
+
+// *****************************************************
+
+@media all and (max-width:575px) and (min-width:320px) {
+    #nav-icon4{
+        display: block!important;
+    }
+    .vision-img,.top-menu-section{
+        display: none;
+    }
+    .subscription-form-wrapper .inputbox{
+        width: 70%!important;
+    }
+    .subscription-form-wrapper .submit-btn{
+        width: 30%!important;
+    }
+    .hero-section .hero-sec-inner-parent .content-wrapper .hero-main-heading{
+        font-size: 40px;
+    }
+    .hero-section{
+        height: auto;
+    }
+}
+
+@media all and (max-width:767px) and (min-width:576px) {
+    #nav-icon4{
+        display: block!important;
+    }
+}
+
+@media all and (max-width:991px) and (min-width:768px) {
+    #nav-icon4{
+        display: block!important;
+    }
+}
+
+@media all and (max-width:1199px) and (min-width:992px) {
+    
+}
+
+@media screen and (max-width: 1376px) {
+    
+}
+
+@media all and (max-width:2000px) and (min-width:992px) {
+   
+}
+
+// specific media query for slider
+@media all and (max-width:1100px) and (min-width:768px) {}
